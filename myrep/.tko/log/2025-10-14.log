@@ -1,0 +1,16 @@
+2025-10-14 16:57:39, MOVE, v:1, k:poo@chinela, mode:DOWN
+2025-10-14 16:57:49, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-14 17:06:14, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-14 17:06:49, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-14 17:07:02, MOVE, v:1, k:poo@camisa, mode:DOWN
+2025-10-14 17:07:02, MOVE, v:1, k:poo@camisa, mode:PICK
+2025-10-14 17:08:07, MOVE, v:1, k:poo@camisa, mode:BACK
+2025-10-14 17:08:12, MOVE, v:1, k:poo@roupa, mode:DOWN
+2025-10-14 17:08:14, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-14 17:08:53, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-14 17:09:03, MOVE, v:1, k:poo@relogio, mode:DOWN
+2025-10-14 17:09:03, MOVE, v:1, k:poo@relogio, mode:PICK
+2025-10-14 17:09:05, EXEC, v:1, k:poo@relogio, mode:FULL, rate:0, size:0
+2025-10-14 17:09:14, MOVE, v:1, k:poo@relogio, mode:BACK
+2025-10-14 20:26:41, MOVE, v:1, k:poo@motoca, mode:DOWN
+2025-10-14 20:26:43, MOVE, v:1, k:poo@motoca, mode:PICK
