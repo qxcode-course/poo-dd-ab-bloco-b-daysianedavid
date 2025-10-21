@@ -1,10 +1,8 @@
 class Pessoa:
     def __init__(self, nome, idade):
-        # atributos privados
         self.__nome = nome
         self.__idade = idade
 
-    # getters e setters
     def get_nome(self):
         return self.__nome
 
@@ -46,7 +44,6 @@ class Moto:
     def set_pessoa(self, pessoa):
         self.__pessoa = pessoa
 
-    # funcionalidades
     def enter(self, pessoa):
         if self.__pessoa is not None:
             print("fail: busy motorcycle")
@@ -87,9 +84,6 @@ class Moto:
         return f"power:{self.__potencia}, time:{self.__tempo}, person:{pessoa_info}"
 
 
-# --------------------------
-# parte de interação (shell)
-# --------------------------
 moto = Moto()
 
 while True:
@@ -97,7 +91,7 @@ while True:
     if not linha:
         continue
 
-    print("$" + linha)  # eco do comando
+    print("$" + linha)  
     partes = linha.split()
     cmd = partes[0]
 
