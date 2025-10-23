@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-22_12-43-52",
+            "content": "@@ -58,16 +58,18 @@\n anho = 0\n+  \n %0A%0A    de\n@@ -346,108 +346,105 @@\n or%0A%0A\n-    def __str__(self):%0A        return f%22tamanho: %7Bself.__tamanho%7D%22%0A%0Achinela = Chinela()%0A%0Awhile True:\n+chinela = Chinela()%0A%0Awhile chinela.getTamanho() == 0:%0A    print(%22Digite seu tamanho de chinela:%22)\n %0A   \n@@ -461,30 +461,67 @@\n     \n-linha\n+tamanho\n  = \n+int(\n input()\n-.strip(\n+)  %0A        chinela.setTamanho(tamanho\n )%0A  \n@@ -533,11 +533,13 @@\n ept \n-EOF\n+Value\n Erro\n@@ -553,267 +553,100 @@\n     \n-break%0A%0A    if not linha:%0A        continue%0A%0A    print(%22$%22 + linha)%0A    partes = linha.split()%0A    cmd = partes%5B0%5D%0A%0A    if cmd == %22end%22:%0A        break%0A    elif cmd == %22show%22:%0A        print(chinela)%0A    elif cmd == %22set%22:%0A        tamanho = int(partes%5B1%5D)%0A       \n+print(%22fail: digite um n%C3%BAmero v%C3%A1lido!%22)%0A%0Aprint(%22Parab%C3%A9ns, voc%C3%AA comprou uma chinela tamanho%22,\n  chi\n@@ -642,33 +642,33 @@\n manho%22, chinela.\n-s\n+g\n etTamanho(tamanh\n@@ -653,24 +653,18 @@\n nela.getTamanho(\n-tamanho\n+)\n )\n",
+            "lines": "24"
+        },
+        {
+            "label": "2025-10-22_12-45-00",
+            "content": "class Chinela:\n    def __init__(self):\n        self.__tamanho = 0\n\n    def getTamanho(self):\n        return self.__tamanho\n\n    def setTamanho(self, valor: int):\n        if valor < 20 or valor > 50 or valor % 2 != 0:\n            print(\"fail: tamanho inv\u00e1lido, insira um n\u00famero par entre 20 e 50\")\n        else:\n            self.__tamanho = valor\n\n    def __str__(self):\n        return f\"tamanho: {self.__tamanho}\"\n\nchinela = Chinela()\n\nwhile True:\n    try:\n        linha = input().strip()\n    except EOFError:\n        break\n\n    if not linha:\n        continue\n\n    print(\"$\" + linha)\n    partes = linha.split()\n    cmd = partes[0]\n\n    if cmd == \"end\":\n        break\n    elif cmd == \"show\":\n        print(chinela)\n    elif cmd == \"set\":\n        tamanho = int(partes[1])\n        chinela.setTamanho(tamanho)",
+            "lines": "38"
+        }
+    ]
+}
