@@ -37,6 +37,5 @@ def main():
             valor = partes[1]
             roupa.set_tamanho(valor)
 
-
 if __name__ == "__main__":
     main()
