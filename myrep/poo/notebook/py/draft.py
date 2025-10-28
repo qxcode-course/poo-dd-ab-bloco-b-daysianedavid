@@ -121,3 +121,5 @@ class Notebook:
         bat = str(self.__bateria) if self.__bateria else "Nenhuma"
         car = str(self.__carregador) if self.__carregador else "Desconectado"
         print(f"Status: {estado}, Bateria: {bat}, Carregador: {car}")
+
+        

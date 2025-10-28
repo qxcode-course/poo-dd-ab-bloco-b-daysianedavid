@@ -8,7 +8,7 @@ sources:
 - database: poo
   link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
   cache_path: /workspaces/poo-dd-ab-bloco-b-daysianedavid/myrep/.tko/cache/poo.md
-  cache_timestamp: '2025-10-26 23:46:44'
+  cache_timestamp: '2025-10-28 16:13:34'
   filters:
   - acesso
   - simples
@@ -17,12 +17,14 @@ expanded:
 - poo@bloco_b-agregação-simples
 - poo@campanha-principal
 tasks:
-  poo@camisa: '{rate:50, human:s, other:s, alone:5, study:50}'
-  poo@roupa: '{rate:100}'
-  poo@relogio: '{rate:100}'
-  poo@motoca: '{rate:100}'
-  poo@grafite: '{rate:100}'
-  poo@motouber: '{rate:100}'
+  poo@chinela: '{rate:70, iagen:s, other:s, alone:4, study:60}'
+  poo@camisa: '{rate:70, human:s, other:s, alone:5, study:50}'
+  poo@roupa: '{rate:100, human:s, iagen:s, other:s, alone:5, study:70}'
+  poo@relogio: '{rate:100, iagen:s, other:s, alone:5, study:170}'
+  poo@motoca: '{rate:100, iagen:s, other:s, alone:5, study:50}'
+  poo@grafite: '{rate:100, iagen:s, other:s, alone:5, study:120}'
+  poo@motouber: '{rate:100, iagen:s, other:s, alone:5, study:50}'
+  poo@notebook: '{rate:40, iagen:s, other:s, alone:3, study:70}'
 flags:
   quests: 0
   tracks: 0
@@ -30,4 +32,4 @@ flags:
   graph: 1
   xray: 0
 lang: py
-selected: poo@roupa
+selected: poo@campanha-principal

@@ -1,0 +1,20 @@
+2025-10-28 11:57:54, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-28 11:57:55, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:100, size:125
+2025-10-28 12:05:21, MOVE, v:1, k:poo@notebook, mode:BACK
+2025-10-28 16:15:08, SELF, v:1, k:poo@chinela, rate:60, iagen:s, other:s, alone:3, study:60
+2025-10-28 16:15:34, SELF, v:1, k:poo@camisa, rate:70, human:s, other:s, alone:5, study:50
+2025-10-28 16:15:42, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-28 16:15:45, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-28 16:16:27, SELF, v:1, k:poo@roupa, rate:100, human:s, iagen:s, other:s, alone:5
+2025-10-28 16:16:55, SELF, v:1, k:poo@chinela, rate:70, iagen:s, other:s, alone:4, study:60
+2025-10-28 16:17:08, SELF, v:1, k:poo@roupa, rate:100, human:s, iagen:s, other:s, alone:5
+2025-10-28 16:17:35, SELF, v:1, k:poo@roupa, rate:100, human:s, iagen:s, other:s, alone:5, study:70
+2025-10-28 16:18:37, SELF, v:1, k:poo@relogio, rate:100, iagen:s, other:s, alone:5, study:170
+2025-10-28 16:19:05, SELF, v:1, k:poo@motoca, rate:100, iagen:s, other:s, alone:5, study:50
+2025-10-28 16:19:51, SELF, v:1, k:poo@grafite, rate:100, iagen:s, other:s, alone:5, study:120
+2025-10-28 16:20:20, SELF, v:1, k:poo@motouber, rate:100, iagen:s, other:s, alone:5
+2025-10-28 16:20:33, SELF, v:1, k:poo@motouber, rate:100, iagen:s, other:s, alone:5, study:50
+2025-10-28 16:20:58, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-28 16:20:59, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:100
+2025-10-28 16:21:01, MOVE, v:1, k:poo@notebook, mode:BACK
+2025-10-28 16:21:29, SELF, v:1, k:poo@notebook, rate:40, iagen:s, other:s, alone:3, study:70
