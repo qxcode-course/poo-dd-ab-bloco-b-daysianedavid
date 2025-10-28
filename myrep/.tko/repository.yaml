@@ -2,11 +2,15 @@ version: '0.2'
 sources:
 - database: local
   link: ''
+  type: local
+  branch: master
   cache_path: ''
   cache_timestamp: ''
   filters: null
 - database: poo
   link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
+  type: remote
+  branch: master
   cache_path: /workspaces/poo-dd-ab-bloco-b-daysianedavid/myrep/.tko/cache/poo.md
   cache_timestamp: '2025-10-28 16:13:34'
   filters:
@@ -17,13 +21,13 @@ expanded:
 - poo@bloco_b-agregação-simples
 - poo@campanha-principal
 tasks:
-  poo@chinela: '{rate:70, iagen:s, other:s, alone:4, study:60}'
-  poo@camisa: '{rate:70, human:s, other:s, alone:5, study:50}'
-  poo@roupa: '{rate:100, human:s, iagen:s, other:s, alone:5, study:70}'
-  poo@relogio: '{rate:100, iagen:s, other:s, alone:5, study:170}'
-  poo@motoca: '{rate:100, iagen:s, other:s, alone:5, study:50}'
-  poo@grafite: '{rate:100, iagen:s, other:s, alone:5, study:120}'
-  poo@motouber: '{rate:100, iagen:s, other:s, alone:5, study:50}'
+  poo@chinela: '{rate:100, iagen:s, alone:4, study:60}'
+  poo@camisa: '{rate:100, iagen:s, alone:6, study:50}'
+  poo@roupa: '{rate:100, human:s, iagen:s, alone:6, study:70}'
+  poo@relogio: '{rate:100, iagen:s, alone:6, study:170}'
+  poo@motoca: '{rate:100, iagen:s, alone:6, study:50}'
+  poo@grafite: '{rate:100, iagen:s, alone:6, study:120}'
+  poo@motouber: '{rate:100, iagen:s, alone:6, study:50}'
   poo@notebook: '{rate:40, iagen:s, other:s, alone:3, study:70}'
 flags:
   quests: 0
